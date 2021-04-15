@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A2FA16CD-16B3-58AC-C4D2-B953D2FA1063}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/emitSingle2.cs">
+    <Files>
+      <File FileName="Assets/Scripts/microphoneInput.cs" Line="12" Column="28" />
+      <File FileName="Assets/Scripts/Unity2LibPdSceneScripts/Button2Bang.cs" />
+      <File FileName="Assets/Scripts/Teleport.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/Unity2LibPdSceneScripts/Proximity2Float.cs" />
+      <File FileName="Assets/Scripts/Unity2LibPdSceneScripts/Button2Bang_variable.cs" />
+      <File FileName="Assets/Scripts/EnvelopeFollower.cs" />
+      <File FileName="Assets/Scripts/emitSingle2.cs" Line="26" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity &amp; Pd Workshop" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e0161875-c577-4f0b-8a05-921ef322c581" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

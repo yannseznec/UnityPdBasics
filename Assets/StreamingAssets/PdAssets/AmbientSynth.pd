@@ -1,0 +1,4 @@
+#N canvas 112 63 1203 721 10;
+#X obj 262 167 nbx 5 14 1 50 0 1 numSynths rcv_numSynths number_of_synths
+0 -8 0 10 -262144 -1 -1 12 256;
+#X obj 138 121 clone ys.randomSynth 12;

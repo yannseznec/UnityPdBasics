@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{B8455CBB-E007-E3B2-F3C8-C838D12B8B66}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Button2Bang_variable.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Proximity2Float.cs" Line="63" Column="58" />
+      <File FileName="Assets/Scripts/Button2Bang.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/Button2Bang_variable.cs" Line="51" Column="37" />
+      <File FileName="Assets/Scripts/LibPdInstance.cs" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity Pd Basics" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aa580612-efa8-4990-b784-42ea6231a7f5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
