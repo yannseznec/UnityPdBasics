@@ -1,6 +1,6 @@
-#N canvas 101 55 1278 506 10;
-#X obj 239 431 dac~;
-#X obj 239 366 *~;
+#N canvas 370 171 900 584 16;
+#X obj 221 559 dac~;
+#X obj 221 494 *~;
 #X obj 417 239 line~;
 #X obj 391 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -8,24 +8,27 @@
 #X text 535 165 the simplest boop;
 #X msg 390 137 1 5;
 #X obj 380 54 receive triggerOn;
-#X obj 508 52 receive triggerOff;
-#X obj 506 100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 239 387 *~ 0.4;
+#X obj 580 57 receive triggerOff;
+#X obj 557 96 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 221 515 *~ 0.4;
 #X obj 110 12 loadbang;
-#X obj 112 124 mtof;
-#X obj 147 327 osc~;
-#X obj 112 169 sig~;
-#X obj 206 195 *~ 1.5;
-#X obj 206 216 osc~;
-#X floatatom 238 160 5 0 0 0 - - -;
-#X obj 142 296 +~;
-#X obj 197 249 *~ 20;
-#X floatatom 309 174 5 0 0 0 - - -;
-#X msg 491 140 0 200;
-#X msg 236 91 2.2;
-#X msg 303 87 100;
-#X msg 112 77 50;
+#X obj 111 178 mtof;
+#X obj 155 422 osc~;
+#X obj 111 223 sig~;
+#X obj 168 263 *~ 1.5;
+#X obj 194 300 osc~;
+#X floatatom 235 202 5 0 0 0 - - -;
+#X obj 150 391 +~;
+#X obj 195 342 *~ 20;
+#X floatatom 308 228 5 0 0 0 - - -;
+#X msg 542 136 0 200;
+#X msg 235 145 2.2;
+#X msg 302 141 100;
+#X obj 103 58 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 70 87 random 20;
+#X obj 70 116 + 30;
 #X connect 1 0 10 0;
 #X connect 2 0 1 1;
 #X connect 3 0 6 0;
@@ -35,9 +38,9 @@
 #X connect 9 0 21 0;
 #X connect 10 0 0 0;
 #X connect 10 0 0 1;
-#X connect 11 0 24 0;
 #X connect 11 0 22 0;
 #X connect 11 0 23 0;
+#X connect 11 0 24 0;
 #X connect 12 0 14 0;
 #X connect 13 0 1 0;
 #X connect 14 0 18 0;
@@ -51,4 +54,6 @@
 #X connect 21 0 2 0;
 #X connect 22 0 17 0;
 #X connect 23 0 20 0;
-#X connect 24 0 12 0;
+#X connect 24 0 25 0;
+#X connect 25 0 26 0;
+#X connect 26 0 12 0;

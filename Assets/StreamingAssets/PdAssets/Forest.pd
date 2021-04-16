@@ -1,4 +1,4 @@
-#N canvas 204 23 849 623 10;
+#N canvas 204 23 1203 683 10;
 #X obj 341 597 dac~;
 #X obj 23 17 loadbang;
 #X obj 114 160 soundfiler;
@@ -30,13 +30,28 @@
 #X obj 382 380 *;
 #X obj 399 348 t b f;
 #X obj 400 313 nbx 5 14 -1e+37 1e+37 0 1 empty empty pitch 0 -8 0 10
--262144 -1 -1 1 256;
+-262144 -1 -1 0.35 256;
 #X obj 10 214 s sound_length;
 #X obj 353 416 r sound_length;
 #X obj 71 334 s master_speed;
 #X obj 299 316 r master_speed;
 #X obj 167 514 nbx 5 14 0 1 0 1 empty empty volume 0 -8 0 10 -262144
--1 -1 0.61 256;
+-1 -1 0.53 256;
+#X obj 779 584 dac~;
+#X obj 721 445 *~;
+#X obj 731 405 phasor~;
+#X obj 705 496 tabread4~ \$0-sound-L;
+#X obj 842 495 tabread4~ \$0-sound-R;
+#X obj 699 544 *~ 0.5;
+#X obj 816 548 *~ 0.5;
+#X obj 820 367 *;
+#X obj 837 335 t b f;
+#X obj 838 300 nbx 5 14 -1e+37 1e+37 0 1 empty empty pitch 0 -8 0 10
+-262144 -1 -1 0.13 256;
+#X obj 791 403 r sound_length;
+#X obj 737 303 r master_speed;
+#X obj 605 501 nbx 5 14 0 1 0 1 empty empty volume 0 -8 0 10 -262144
+-1 -1 0.93 256;
 #X connect 1 0 11 0;
 #X connect 2 0 5 0;
 #X connect 2 1 19 0;
@@ -66,3 +81,18 @@
 #X connect 26 0 20 0;
 #X connect 27 0 16 1;
 #X connect 27 0 17 1;
+#X connect 29 0 31 0;
+#X connect 29 0 32 0;
+#X connect 30 0 29 0;
+#X connect 31 0 33 0;
+#X connect 32 0 34 0;
+#X connect 33 0 28 0;
+#X connect 34 0 28 1;
+#X connect 35 0 30 0;
+#X connect 36 0 35 0;
+#X connect 36 1 35 1;
+#X connect 37 0 36 0;
+#X connect 38 0 29 1;
+#X connect 39 0 35 0;
+#X connect 40 0 33 1;
+#X connect 40 0 34 1;
