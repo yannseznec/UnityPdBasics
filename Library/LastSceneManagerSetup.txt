@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Blank.unity
+- path: Assets/Scenes/BangButtons.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
