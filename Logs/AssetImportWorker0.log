@@ -12,98 +12,94 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49399
+58387
 Successfully changed project path to: /Users/yseznec/Dropbox/Unity/UnityPdBasics
 /Users/yseznec/Dropbox/Unity/UnityPdBasics
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/yseznec/Dropbox/Unity/UnityPdBasics/Assets
 GfxDevice: creating device client; threaded=0
-2021-04-19 16:51:50.532 Unity[75716:834023] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-04-19 16:51:50.532 Unity[75716:834023] Metal devices available: 1
-2021-04-19 16:51:50.532 Unity[75716:834023] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-04-19 16:51:50.533 Unity[75716:834023] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-20 15:44:14.719 Unity[4974:1166113] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-20 15:44:14.719 Unity[4974:1166113] Metal devices available: 1
+2021-04-20 15:44:14.719 Unity[4974:1166113] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-20 15:44:14.719 Unity[4974:1166113] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56974
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002115 seconds.
+Registered in 0.002220 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 25.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.570 seconds
+- Completed reload, in  2.441 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003310 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.045 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1562.
-Total: 1.845592 ms (FindLiveObjects: 0.160221 ms CreateObjectMapping: 0.039823 ms MarkObjects: 1.564898 ms  DeleteObjects: 0.079614 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/BangButtons.unity
-  artifactKey: Guid(9ee1725b9b9974c6d9cb930f5adc4bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BangButtons.unity using Guid(9ee1725b9b9974c6d9cb930f5adc4bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc27478e4e6ac9ae30c723f9141cf17') in 0.010652 seconds
-  Import took 0.012881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.243351 seconds.
-  path: Assets/Scenes/Proximity.unity
-  artifactKey: Guid(0c3eb82f5e09648e38bb2c1ecf83ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Proximity.unity using Guid(0c3eb82f5e09648e38bb2c1ecf83ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8c981618a5b8d476a9ff95dd76d0f5') in 0.001666 seconds
-  Import took 0.004238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.985994 seconds.
-  path: Assets/Scenes/Spatial.unity
-  artifactKey: Guid(b857292fdaf3843398386a9f4c455b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Spatial.unity using Guid(b857292fdaf3843398386a9f4c455b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dd77c3242ce5cc0a8c46bbe67dff4d') in 0.001457 seconds
-  Import took 0.004336 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000770 seconds.
+Registered in 0.001390 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  1.240 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
 System memory in use after: 110.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1565.
-Total: 1.562851 ms (FindLiveObjects: 0.142683 ms CreateObjectMapping: 0.034254 ms MarkObjects: 1.369188 ms  DeleteObjects: 0.015500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 5.208163 ms (FindLiveObjects: 0.281257 ms CreateObjectMapping: 0.228758 ms MarkObjects: 4.598921 ms  DeleteObjects: 0.096038 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Ambient 1.unity
+  artifactKey: Guid(f35b6eacde3cc4a33b1259bbd2d822cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ambient 1.unity using Guid(f35b6eacde3cc4a33b1259bbd2d822cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5ef7fc1a4759557f6935a6e9cbc85b') in 0.020153 seconds
+  Import took 0.024182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023706 seconds.
+  path: Assets/Scenes/Ambient 1.unity
+  artifactKey: Guid(f35b6eacde3cc4a33b1259bbd2d822cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ambient 1.unity using Guid(f35b6eacde3cc4a33b1259bbd2d822cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5ef7fc1a4759557f6935a6e9cbc85b') in 0.003754 seconds
+  Import took 0.007726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.847469 seconds.
+  path: Assets/Scenes/Blank.unity
+  artifactKey: Guid(f35b6eacde3cc4a33b1259bbd2d822cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blank.unity using Guid(f35b6eacde3cc4a33b1259bbd2d822cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e823d0a0210f1c43a5a5bb6f455702c') in 0.001566 seconds
+  Import took 0.004228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.502462 seconds.
+  path: Assets/Scenes/Ambient.unity
+  artifactKey: Guid(41605edf446844cc3bdc0e6f930d7713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ambient.unity using Guid(41605edf446844cc3bdc0e6f930d7713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b406c59e323a9335b2c352a2f5811a23') in 0.001523 seconds
+  Import took 0.005522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001007 seconds.
+  path: Assets/Scenes/Ambient.unity
+  artifactKey: Guid(41605edf446844cc3bdc0e6f930d7713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ambient.unity using Guid(41605edf446844cc3bdc0e6f930d7713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b406c59e323a9335b2c352a2f5811a23') in 0.001235 seconds
+  Import took 0.003223 seconds .
 
