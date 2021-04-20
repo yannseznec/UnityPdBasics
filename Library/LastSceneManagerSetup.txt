@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Proximity.unity
+- path: Assets/Scenes/Spatial.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
