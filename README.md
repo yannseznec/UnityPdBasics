@@ -10,3 +10,9 @@ This project is even more stripped down than those, and also includes Prefab obj
 
 Here is a playlist of short videos to accompany this repository. Have fun learning! 
 https://youtube.com/playlist?list=PLXGA7pVjV1jdfe2FaEs2EzuZ-16HLH1_0
+The current five videos are:
+1. Adding libpd to your own Unity project
+2. Playing an ambient sound in Unity using Pd
+3. Spatializing a Pd patch
+4. Sending a bang from Unity to Pd to trigger stuff
+5. Sending a number value from Unity to Pd to control stuff
