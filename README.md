@@ -8,4 +8,11 @@ and borrows heavily from Niall's LibPdIntegrationExamples project https://github
 
 This project is even more stripped down than those, and also includes Prefab objects for different types of Pd sound implementation. This lets you drag and drop different types of sound into the scene.
 
-More details and accompanying tutorial videos are on the way.
+Here is a playlist of short videos to accompany this repository. Have fun learning! 
+https://youtube.com/playlist?list=PLXGA7pVjV1jdfe2FaEs2EzuZ-16HLH1_0
+The current five videos are:
+1. Adding libpd to your own Unity project
+2. Playing an ambient sound in Unity using Pd
+3. Spatializing a Pd patch
+4. Sending a bang from Unity to Pd to trigger stuff
+5. Sending a number value from Unity to Pd to control stuff
